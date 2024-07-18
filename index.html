@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XLSX to XML Converter</title>
+</head>
+<body>
+    <h2>XLSX to XML Converter</h2>
+    <input type="file" id="fileInput" accept=".xlsx">
+    <button id="convertBtn">Convert to XML</button>
+    <div>
+        <label for="sonoInput">SONO:</label>
+        <input type="text" id="sonoInput" placeholder="Enter SONO">
+    </div>
+    <div>
+        <label>PROJECTID:</label>
+        <input type="radio" id="projectTMO1101" name="projectID" value="TMO-1101">
+        <label for="projectTMO1101">TMO-1101 (SHOPEE SCELTA)</label><br>
+        <input type="radio" id="projectTMO1009" name="projectID" value="TMO-1009">
+        <label for="projectTMO1009">TMO-1009 (SHOPEE GRAPE)</label>
+    </div>
+    <div>
+        <label>SHIPVIAID:</label>
+        <input type="radio" id="shipviaSPXStandard" name="shipviaID" value="SPX Standard">
+        <label for="shipviaSPXStandard">SPX Standard</label><br>
+        <input type="radio" id="shipviaSPXHemat" name="shipviaID" value="SPX Hemat">
+        <label for="shipviaSPXHemat">SPX Hemat</label>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="xlsxConverter.js"></script>
+</body>
+</html>
