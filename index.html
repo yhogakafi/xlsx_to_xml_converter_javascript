@@ -27,8 +27,13 @@
         <input type="radio" id="shipviaSPXHemat" name="shipviaID" value="SPX Hemat">
         <label for="shipviaSPXHemat">SPX Hemat</label>
     </div>
+    <div>
+        <input type="file" id="xmlFileInput" accept=".xml">
+        <button id="generateReportButton">Generate Report</button>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <script src="xlsxConverter.js"></script>
+    <script src="generateReport.js" defer></script>
 </body>
 </html>
