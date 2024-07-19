@@ -7,6 +7,13 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container0">
+        <h2>Export Order Number</h2>
+        <div class="button-group">
+            <input type="file" id="pdf-file" class="file-input"/>
+            <button class="button" onclick="extractData()">Extract Data</button>
+        </div>
+    </div>
     <div class="container1">
         <h2>XLSX to XML Converter</h2>
         <input type="file" id="fileInput" accept=".xlsx" class="file-input">
@@ -39,9 +46,10 @@
             <button id="generateReportButton" class="button">Generate Report</button>
         </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <script src="xlsxConverter.js"></script>
     <script src="generateReport.js" defer></script>
+    <script src="export_order_no.js" defer></script>
 </body>
 </html>

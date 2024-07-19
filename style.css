@@ -9,7 +9,19 @@ body {
     margin: 0;
 }
 
+.container0 {
+    margin: 25px;
+    background: #e0e5ec;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px #a3b1c6,
+                -7px -7px 15px #ffffff;
+    width: 300px;
+    text-align: center;
+}
+
 .container1 {
+    margin: 25px;
     background: #e0e5ec;
     padding: 20px;
     border-radius: 15px;
@@ -20,7 +32,7 @@ body {
 }
 
 .container2 {
-    margin-left: 50px;
+    margin: 25px;
     background: #e0e5ec;
     padding: 20px;
     border-radius: 15px;
