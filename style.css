@@ -9,7 +9,53 @@ body {
     margin: 0;
 }
 
+.tools_no1 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff3e3e;
+    box-shadow: 2px 2px 5px #babecc, -2px -2px 5px #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; /* Half the height of tools_no */
+    left: calc(50% - 25px); /* Center horizontally relative to container0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.tools_no2 {
+    width: 50px;
+    height: 50px;
+    background-color: #0051ff;
+    box-shadow: 2px 2px 5px #babecc, -2px -2px 5px #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; /* Half the height of tools_no */
+    left: calc(50% - 25px); /* Center horizontally relative to container0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.tools_no3 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff7b00;
+    box-shadow: 2px 2px 5px #babecc, -2px -2px 5px #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; /* Half the height of tools_no */
+    left: calc(50% - 25px); /* Center horizontally relative to container0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
 .container0 {
+    position: relative;
     margin: 25px;
     background: #e0e5ec;
     padding: 20px;
@@ -21,6 +67,7 @@ body {
 }
 
 .container1 {
+    position: relative;
     margin: 25px;
     background: #e0e5ec;
     padding: 20px;
@@ -32,6 +79,7 @@ body {
 }
 
 .container2 {
+    position: relative;
     margin: 25px;
     background: #e0e5ec;
     padding: 20px;
@@ -40,6 +88,11 @@ body {
                 -7px -7px 15px #ffffff;
     width: 300px;
     text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
 }
 
 h2 {
@@ -58,7 +111,6 @@ label {
     color: #333;
     font-weight: bold;
 }
-
 
 .file-input {
     margin: 10px;
